@@ -1,0 +1,107 @@
+body {
+
+  background-color: lightgray;
+  text-align: center;
+}
+
+
+#header-img{
+  max-width: 10%;
+  position: fixed;
+  top: 0;
+  left: 5%;
+   }
+.nav-link{
+  font-size: large;
+}
+
+#nav-bar a{
+  float: right;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px 20px;
+  font-color: white;
+}
+
+#nav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 140px;
+  background: #eee;
+  text-align: center;
+}
+
+#form {
+  margin-top: 110px;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+
+#cont-cursos {  
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   }
+
+#cursos{
+  background-color: darkgray;
+  border-radius: 4em;
+  width: 50%;
+  text-align: left;
+  padding: 0px 0px 0px 80px;
+    }
+
+#cont-precio {  
+   display: flex;
+   justify-content: center;
+   }
+#precio{
+   background-color: darkgray;
+   border-radius: 4em;
+   width: 50%;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+}
+
+.precio{
+  background-color: lightgray;
+  margin: 1em;
+  border-radius: 1em;
+  padding: 0px 10px 0px 10px;
+    }
+footer {
+  width: 100%;
+  background-color: lightgray;
+  padding: 0.3em;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 10px 10px;
+  //color: black;
+  
+  margin-left: 0.5em;
+}
+
+footer p {
+  color: eee;
+}
+
+
+@media (max-width: 600px) {
+  #nav-bar {
+    display: none;
+  }
+}
+  
